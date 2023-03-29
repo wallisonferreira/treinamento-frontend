@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.main {
+    display: flex;
+    background-color: rgb(43, 17, 40);
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .card {
+    background-color: red;
+    width: 65%;
+}
+
+.main .cardPrincipal {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Primeira coluna */
+
+.main .contentTitle {
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(225, 225, 230);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    width: 50%;
+    min-width: 476px;
+}
+
+.main .contentTitle .logo {
+    height: 100px;
+}
+
+.main .contentTitle .title {
+    height: 100px;
+}
+
+.main .contentTitle .title h1 {
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    max-width: 250px;
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 44px;
+}
+
+/* Segunda coluna */
+
+.main .formLogin {
+    width: 50%;
+    min-width: 476px;
+}
+
+.main .formLogin form {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+}
+
+.main .formLogin form input {
+    height: 50px;
+    margin-bottom: 0.75rem;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    padding: 0px 1em 0px 2.65em;
+    border-radius: 5px;
+}
+
+.main .formLogin form button {
+    height: 50px;
+    background: rgb(130, 87, 229);
+    border-radius: 5px;
+    border: 0px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.main .formLogin span p {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(130, 87, 230);
+}
