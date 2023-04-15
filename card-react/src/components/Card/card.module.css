@@ -1,0 +1,108 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  min-width: 380px;
+  border-radius: 5px;
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card .sectionImage {
+  display: flex;
+  width: 100%;
+  max-height: 100vh;
+}
+
+.card .sectionImage img {
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: auto;
+  height: 180px;
+}
+
+.card .sectionContent {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 1rem;
+  height: 100%;
+}
+
+.card .sectionContent .itemContent {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card .sectionContent .itemContent .itemTitle {
+    height: 72px;
+}
+
+.card .sectionContent .itemContentText {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  justify-content: space-between;
+}
+
+.card .sectionImage img {
+  display: block;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+hr {
+  border: 0.01rem solid rgb(221, 221, 221);
+}
+
+.textSimple {
+  color: rgb(140, 140, 140);
+}
+
+.card .sectionContent .itemContent .itemContentButtons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.card .sectionContent .itemContent .itemContentButtons .listButtons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.card .sectionContent .itemContent .itemContentButtons .listButtons .button {
+  cursor: pointer;
+  background-color: rgb(220, 220, 220);
+  border-radius: 15px;
+  padding: 0.5rem 1rem;
+  color: rgb(87, 87, 87);
+}
+
+.card
+  .sectionContent
+  .itemContent
+  .itemContentButtons
+  .listButtons
+  .button:hover {
+  background-color: rgb(177, 177, 177);
+}
+
+.actionButton {
+  text-decoration: none;
+  color: rgb(160, 160, 160);
+}
+
+.actionButton:hover {
+  color: rgb(105, 105, 105);
+}
+
+.starIcon {
+  width: 1rem;
+  height: 1rem;
+  fill: rgb(223, 223, 8);
+}
